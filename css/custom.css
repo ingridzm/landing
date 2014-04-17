@@ -18,10 +18,10 @@ body {
   text-align:center;
   max-width:1000px;
   background-color: #fff;
-  margin:-100px auto;
-  padding:100px  10px 20px 10px;
+  margin:0px auto;
+  padding:10px  10px 20px 10px;
   border:1px solid #e2e2e2;
-  background:url(../images/phonemain2.png)no-repeat top center;
+  background:url(../images/phone.png)no-repeat top center;
   
   box-shadow: 10px 10px 5px #888888;
 
@@ -51,7 +51,7 @@ h2.blue{color:#3ec5da;
 }
 
 p.slogan_small{font-size:80%;
-  padding-top:120px;
+  padding-top:100px;
   padding-bottom:50px;
 }
 
@@ -65,15 +65,17 @@ span{font-size:600%;
 
 @media (min-width: 767px){
 
-  .my-fluid-container{margin:20px auto;}
+  .my-fluid-container{margin:20px auto;
+    padding-top: 90px;
+  background:url(../images/phonemain2.png)no-repeat top center;}
 
  
   h1.slogan{font-size:500%;}
 
   h2.blue{
-  font-size:250%;}
+  font-size:200%;}
 
-  p.slogan_small{font-size:160%;padding-top:120px;}
+  p.slogan_small{font-size:140%;padding-top:120px;}
 
   #circle {
   width: 150px;
